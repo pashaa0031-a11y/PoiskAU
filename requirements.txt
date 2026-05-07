@@ -1,1 +1,5 @@
 catboost
+pandas
+openpyxl
+numpy 
+plotly

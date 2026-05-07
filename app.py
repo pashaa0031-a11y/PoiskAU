@@ -1,7 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from catboost import CatBoostClassifier
+try:
+    from catboost import CatBoostClassifier
+except ImportError:
+    !pip install catboost -q
+    from catboost import CatBoostClassifier
 import plotly.express as px
 
 # Настройка страницы

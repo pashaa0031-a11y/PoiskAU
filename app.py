@@ -80,7 +80,7 @@ if uploaded_file:
                             df_filtered, lat=lat_col, lon=lon_col, color='Probability',
                             color_continuous_scale='Turbo', size_max=12, zoom=8, opacity=0.85,
                             mapbox_style=map_style, range_color=[0, 1], # Шкала жестко от 0 до 1
-                            hover_data=['Probability'] + features[:3]
+                            hover_data=['Probability']
                         )
                         
                         fig_pred.update_layout(width=1100, height=500, margin={"r":0,"t":0,"l":0,"b":0})

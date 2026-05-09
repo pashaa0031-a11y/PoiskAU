@@ -7,8 +7,8 @@ import plotly.express as px
 # Настройка страницы
 st.set_page_config(page_title="Gold Predictor AI", page_icon="⛏️", layout="wide")
 
-st.title("🗺️ Интеллектуальная система прогноза золотого оруденения")
-st.markdown("Интерактивный инструмент пространственного выделения рудных узлов на базе ансамблевой модели CatBoost.")
+st.title("🗺️ Система прогноза золотого оруденения")
+st.markdown("Инструмент выделения рудных узлов на базе ансамблевой модели CatBoost.")
 
 # 1. Загрузка модели в кэш
 @st.cache_resource
